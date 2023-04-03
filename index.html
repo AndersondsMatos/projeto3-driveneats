@@ -25,22 +25,25 @@
         <div class="menu">
             <h1>Primeiro, seu prato</h1>
             <div class="pratos">
-                <div class="opcao">
+                <div onclick="selecionaPrato('.prato1')" class="opcao prato1">
                     <img src="./projeto__driven-eats__imagens/frango_yin_yang.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h3>Frango Yin Yang</h3>
                     <p>Um pouco de batata,</p>
                     <p>um pouco de salada</p>
                     <h4>R$ 13,90</h4>
                 </div>
-                <div class="opcao">
+                <div onclick="selecionaPrato('.prato2')" class="opcao prato2 ">
                     <img src="./projeto__driven-eats__imagens/frango_yin_yang.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h3>Frango Xadrez</h3>
                     <p>Um pouco de batata,</p>
                     <p>gengibre, etc...</p>
                     <h4>R$ 17,90</h4>
                 </div>
-                <div class="opcao">
+                <div onclick="selecionaPrato('.prato3')" class="opcao prato3 ">
                     <img src="./projeto__driven-eats__imagens/frango_yin_yang.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h3>'Flango do Mestle'</h3>
                     <p>Pra quem é faixa</p>
                     <p>preta. Experimente!</p>
@@ -50,20 +53,23 @@
                 
             <h1>Agora, sua bebida</h1>
             <div class="bebidas">
-                <div class="opcao">
+                <div onclick="selecionaBebida('.bebida1')" class="opcao bebida1 ">
                     <img src="./projeto__driven-eats__imagens/coca-cola.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h3>Coquinha Gelada</h3>
                     <p>Lata 350ml</p>
                     <h4>R$ 4,90</h4>
                 </div>
-                <div class="opcao">
+                <div onclick="selecionaBebida('.bebida2')" class="opcao bebida2 ">
                     <img src="./projeto__driven-eats__imagens/coca-cola.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h3>Coca Gelada</h3>
                     <p>Lata 500ml</p>
                     <h4>R$ 6,90</h4>
                 </div>
-                <div class="opcao">
+                <div onclick="selecionaBebida('.bebida3')" class="opcao bebida3 ">
                     <img src="./projeto__driven-eats__imagens/coca-cola.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h3>Coca Litrão</h3>
                     <p>Lata 1 Litro</p>
                     <h4>R$ 10,90</h4>
@@ -72,20 +78,23 @@
         
             <h1>Por fim, sua sobremesa</h1>
             <div class="sobremesas">
-                <div class="opcao">
+                <div onclick="selecionaSobremesa('.sobremesa1')" class="opcao sobremesa1">
                     <img src="./projeto__driven-eats__imagens/pudim.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h4>Pudim</h4>
                     <p>Apenas Pudim</p>
                     <h4>R$ 7,90</h4>
                 </div>    
-                <div class="opcao">
+                <div onclick="selecionaSobremesa('.sobremesa2')" class="opcao sobremesa2">
                     <img src="./projeto__driven-eats__imagens/pudim.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h4>Big Pudim</h4>
                     <p>Pudim Turbinado</p>
                     <h4>R$ 12,90</h4>
                 </div>
-                <div class="opcao">
+                <div onclick="selecionaSobremesa('.sobremesa3')" class="opcao sobremesa3">
                     <img src="./projeto__driven-eats__imagens/pudim.png">
+                    <img src="./projeto__driven-eats__imagens/checkmark.svg" class="checkmark">
                     <h4>Super Pudim</h4>
                     <p>Pudim Especial</p>
                     <h4>R$ 15,90</h4>
@@ -97,5 +106,6 @@
             <button>Selecione os 3 itens<br>para fechar o pedido</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
