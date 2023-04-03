@@ -1,3 +1,14 @@
+function verificaItemSelecionado(pratos, bebidas, sobremesas) {
+//    alert('Você selecionou este item.');
+
+    if ('pratos .selecionado' && 'bebidas .selecionado' && 'sobremesas .selecionado' == true) {
+        // let fecharPedido = document.querySelector('botao');
+
+        button.classList.add('habilitar-botao');
+    }
+
+}
+
 function selecionaPrato(seletor) {
     console.log(seletor);
     
@@ -12,6 +23,8 @@ function selecionaPrato(seletor) {
         console.log(botaoAtual);
 
         botaoAtual.classList.add('selecionado');
+
+    verificaItemSelecionado();
 }
 
 function selecionaBebida(seletor) {
@@ -28,6 +41,8 @@ function selecionaBebida(seletor) {
         console.log(botaoAtual);
 
         botaoAtual.classList.add('selecionado');
+
+    verificaItemSelecionado();
 }
 
 function selecionaSobremesa(seletor) {
@@ -44,7 +59,6 @@ function selecionaSobremesa(seletor) {
         console.log(botaoAtual);
 
         botaoAtual.classList.add('selecionado');
+
+    verificaItemSelecionado();
 }
-
-
-//if (opcao1 && opcao2 && opcao3 == tue) {
